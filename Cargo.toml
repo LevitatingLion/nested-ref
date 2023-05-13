@@ -1,0 +1,17 @@
+[package]
+name = "nested-ref"
+version = "0.1.0"
+edition = "2021"
+
+repository = "https://github.com/LevitatingLion/nested-ref/"
+license = "MIT OR Apache-2.0"
+
+description = "References to data contained in one or more nested RefCells"
+authors = ["LevitatingLion <levitatinglion@web.de>"]
+keywords = ["nested", "refref", "refcell", "ref", "refmut"]
+categories = ["rust-patterns", "no-std::no-alloc", "memory-management", "data-structures"]
+
+exclude = ["Makefile"]
+
+[dependencies]
+generic-array = "0.14.7"
